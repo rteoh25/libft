@@ -15,12 +15,21 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdint.h>
+# include <fcntl.h>
+# include <limits.h>
+# include <stdio.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 20
+# endif
+
 
 typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }	t_list;
+
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t len);
