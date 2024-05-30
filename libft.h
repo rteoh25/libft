@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rteoh <rteoh@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rteoh <rteoh@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 15:47:46 by rteoh             #+#    #+#             */
-/*   Updated: 2023/11/09 13:19:47 by rteoh            ###   ########.fr       */
+/*   Updated: 2024/05/30 13:47:21 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,14 @@
 #  define BUFFER_SIZE 20
 # endif
 
-
 typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }	t_list;
 
-
 int		ft_atoi(const char *str);
+long	ft_atol(char *str);
 void	ft_bzero(void *s, size_t len);
 void	*ft_calloc(size_t count, size_t size);
 int		ft_isalnum(int c);
