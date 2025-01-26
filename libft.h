@@ -6,7 +6,7 @@
 /*   By: rteoh <rteoh@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 15:47:46 by rteoh             #+#    #+#             */
-/*   Updated: 2024/07/20 14:37:53 by rteoh            ###   ########.fr       */
+/*   Updated: 2025/01/26 17:28:12 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,7 @@ char	*ft_strdup(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *str);
+int		ft_strcmp(const char *p1, const char *p2);
 int		ft_strncmp(const char *str1, const char *str2, size_t n);
 int		ft_strend(char *s, char *suffix);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t n);
